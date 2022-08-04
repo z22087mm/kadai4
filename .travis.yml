@@ -1,5 +1,5 @@
 language: bash
 script:
-  - echo"travis start2"
+  - echo "travis start"
   - ./keisan.sh
   - ./kakunin.sh
