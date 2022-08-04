@@ -1,7 +1,9 @@
 me: actions-trial
 on: [push]
-jobs:
+jobs: kadai4
 check-bats-version:
 runs-on: ubuntu-latest
 steps:
 - run: echo "first action!"
+- run: keisan.sh
+- run: kakunin.sh
