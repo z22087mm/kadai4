@@ -1,6 +1,6 @@
 me: actions-trial
 on: [push]
-jobs: kadai4
+jobs: 
 check-bats-version:
 runs-on: ubuntu-latest
 steps:
